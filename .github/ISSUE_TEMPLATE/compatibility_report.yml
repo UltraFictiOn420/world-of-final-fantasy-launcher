@@ -1,0 +1,28 @@
+name: Compatibility report
+description: Tell us which parts work on your setup.
+title: "[Compatibility] "
+body:
+  - type: input
+    id: setup
+    attributes:
+      label: Windows, game, and launcher versions
+    validations:
+      required: true
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: What did you personally verify?
+      options:
+        - label: Startup
+        - label: Loading a save
+        - label: Saving (with a backup)
+        - label: Extended gameplay
+        - label: Controller / Steam Input
+        - label: Achievements
+        - label: Overlay
+        - label: Steam Cloud synchronization
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and limitations
+      description: Do not include private details or game/save files.

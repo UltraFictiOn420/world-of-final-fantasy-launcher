@@ -1,0 +1,46 @@
+name: Launcher problem
+description: Report a launcher error or game launch failure. Remove private details.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post saves, game binaries, credentials, or unredacted private logs. Do not disable security software to test this launcher."
+  - type: input
+    id: version
+    attributes:
+      label: Launcher version
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11, build if known
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game edition and version
+      placeholder: Steam PC, 2.0.0.0, MAXIMA DLC installed or not
+  - type: dropdown
+    id: stage
+    attributes:
+      label: When does it fail?
+      options:
+        - Before game startup (launcher message)
+        - Game startup or title screen
+        - Loading a save
+        - Playing
+        - Saving
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Exact message and steps
+      description: Include what your previous launch method does. Redact personal paths.
+    validations:
+      required: true
