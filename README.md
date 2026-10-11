@@ -145,7 +145,7 @@ There are no installed components or launcher-created registry changes to undo.
 Published by **UltraFictiOn420**.
 The launcher code is original; community troubleshooting reports are credited
 above. [MIT License](LICENSE). This project is unaffiliated with Square Enix,
-Valve, Microsoft, or OpenAI. World of Final Fantasy and related names belong to
+Valve, Microsoft. World of Final Fantasy and related names belong to
 their respective owners. No game binaries, game resources, or saves are distributed.
 
 See [Changelog](CHANGELOG.md), [Testing](docs/TESTING.md),
