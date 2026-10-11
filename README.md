@@ -142,7 +142,7 @@ There are no installed components or launcher-created registry changes to undo.
 
 ## Source and license
 
-Published by **UltraFictiOn420**, developed collaboratively with OpenAI Codex.
+Published by **UltraFictiOn420**.
 The launcher code is original; community troubleshooting reports are credited
 above. [MIT License](LICENSE). This project is unaffiliated with Square Enix,
 Valve, Microsoft, or OpenAI. World of Final Fantasy and related names belong to
